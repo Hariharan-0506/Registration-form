@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Container{
+    background-color: lightgrey;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px;
+    width: 500px;
+    padding: 30px 40px;
+    margin-left: 30%;
+}
+.b :hover{
+   color: rgb(0, 17, 255);
+   background-color: lightcyan;
+   
+
+}
+
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+button[type="submit"], button[type="cancel"] {
+			width: 100%;
+			padding: 10px;
+			margin-bottom: 10px;
+			border: none;
+			border-radius: 2px;
+			background-color: #548d55;
+			color: #fff;
+			cursor: pointer;
+		}
+        form {
+            display: grid;
+            
+          }
